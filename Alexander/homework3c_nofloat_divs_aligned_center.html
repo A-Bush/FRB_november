@@ -1,0 +1,149 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>homework2</title>
+		<meta charset="utf-8" />
+		<style>
+			body {
+				margin:0;
+			}
+
+			div {
+				margin: 0 auto;
+				text-align: center;
+				box-shadow: inset rgba(128, 128, 128, 0.2) 0px 2px 3px 0px,
+				rgba(128, 128, 128, 0.2) 2px 0 2px 0;
+			}
+
+			#wrapper {
+				margin-top: 6px;
+				width: 98%;
+				height: 106%;
+				border: 2px ridge green;
+			}
+
+			.red {
+				border: 2px ridge red;
+				margin: 1%;
+				position: relative;
+				overflow: auto;
+				
+
+				 /* http://stackoverflow.com/questions/9017120/how-to-keep-floating-div-inside-frame-of-parent-div */
+			}
+
+			.blue {
+				border: 2px ridge blue;
+				display: inline-block;
+			}
+
+			.blue_narrow {
+				width: 24%;
+				margin: 1% auto;
+				height: 10%;
+			}
+
+			.blue_wide {
+				width: 49%;
+				margin: 1% auto;
+				height: 10%;
+			}
+
+
+			.yellow {
+				border: 2px ridge yellow;
+				height: 28%;
+				margin: 2% auto;
+				width: 94%;
+				display: block;
+			}
+
+			.yellow2 {
+				border: 2px ridge yellow;
+				height: 66%;
+				margin: 1% auto;
+				width: 98%;
+			}
+
+			.yellow3 {
+				border: 2px ridge yellow;
+				height: 18%;
+				margin: 1% auto;
+				width: 98%;
+			}
+
+			.blue_2floor {
+				width: 24%;
+				margin: 1% auto;
+				height: 10%;
+			}
+
+			.blue_3floor {
+				width: 24%;
+				margin: 1% auto;
+				height: 37%;
+			}
+
+			.blue_3floor_wide {
+				width: 73.4%;
+				margin: 1% auto;
+				height: 37%;
+			}
+
+		</style>
+	</head>
+
+	
+	
+	<body>
+		<div id="wrapper">
+			<div class="red">
+				<div class="blue blue_narrow">
+				</div>
+				<div class="blue blue_wide">
+				</div>
+				<div class="blue blue_narrow">
+					<div class="yellow"></div>
+					<div class="yellow"></div>
+				</div>
+			</div>
+
+
+
+
+			<div class="red">
+				<div class="blue blue_2floor"></div>
+				<div class="blue blue_2floor"></div>
+				<div class="blue blue_2floor"></div>
+				<div class="blue blue_2floor"></div>
+			</div>
+
+
+
+
+			<div class="red">
+				<div class="blue blue_3floor"></div>
+				<div class="blue blue_3floor_wide">
+					<div class="yellow2"></div>
+					<div class="yellow3"></div>		
+				</div>
+			</div>
+
+
+
+
+			<div class="red">
+				<div class="blue blue_narrow">
+					<div class="yellow"></div>
+					<div class="yellow"></div>
+				</div>
+				<div class="blue blue_wide">
+				</div>
+				<div class="blue blue_narrow">
+				</div>
+			</div>
+
+
+		</div>
+	</body>
+</html>
