@@ -1,0 +1,29 @@
+.one {background-color: red;
+width: 250px;
+height: 100px;
+}
+.two{background-color: blue;
+	width: 200px;
+height: 200px;
+position: relative;
+left:400px;
+}
+.three {background-color: pink;
+width: 100px;
+height: 140px;}
+.four {background-color: purple;
+width: 200px;
+height: 100px;
+}
+
+.two:hover {opacity: 20%;}
+
+.twoone {background-color: black;
+height: 50px;
+width: 50px;}
+
+div {border-radius: 20%;
+	color:white;
+	text-align: center;
+font-weight: bold;
+font-size: 30px;}
