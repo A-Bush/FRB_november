@@ -1,0 +1,188 @@
+.wrapper{background-color: white;
+width: 1400px;
+height: 1260px;
+margin: 0  auto;}
+
+
+.header {background: url("images/topbg.jpg") no-repeat white;
+width: 686px;
+height: 65px;
+margin-left:309px;}
+
+p.logo {color:#858282;
+margin-left:240px;
+font: 13px/19px Arial, Helvetica, sans-serif;
+margin-bottom:10px;
+}
+
+
+.logo1 {margin-left:240px;
+margin-bottom:-17px;}
+
+.headnav {width:1400px;
+height: 230px;
+background: url("images/main-bg.gif") 0 0 repeat-x;
+top:0;
+background-size:contain;
+}
+
+.nav {width: 782px;
+    height: 174px;
+    background: url("images/header.jpg") 0 0 no-repeat;
+margin: 20px auto;
+font: 13px/19px Arial, Helvetica, sans-serif;
+    position: relative;
+top:-18px;}
+     
+.nav1 {width: 782px;
+ height:175px;
+margin:-1px auto;}
+
+
+
+
+.leftmenu {    margin-left: 101px;
+    margin-top: -2px;
+   padding: 23px 19px 28px 2px;
+
+
+}
+ 
+ ul.leftmenu li a {
+  	font: 13px/19px Arial, Helvetica, sans-serif;
+ 	line-height: 22px;
+ 	text-decoration: none;
+ 	color: #817474;
+  	width:70px;
+  	}
+  	/*ul.leftmenu li a:hover {background: url("images/bullet-hover.gif") 0 0 no-repeat;}*/
+ 
+ ul.leftmenu li {list-style: none;
+ 	border-bottom: dashed 1px  #5F7A77;
+ 	width:90px;
+ }
+ 
+
+ul.leftmenu li {list-style-image: url("images/bullet-normal.gif");
+width: 60px;
+}
+ul.leftmenu li:hover {list-style-image: url("images/bullet-hover.gif");}
+
+
+ul li.contacts {border-bottom: none;}
+
+.bodysec {width: 1200px;
+	height:38px;
+    background: url("images/bodybg.gif") 0 0 no-repeat white;
+    position: relative;
+    margin: -30px 0 -26px 309px;
+    }
+h2 {font: 18px/24px Arial, Helvetica, sans-serif;
+color: #5F7A77;
+font-weight: bold;
+line-height: 25px;
+margin-left:26px;
+margin-bottom:-12px;
+}
+
+.goods {width: 139px;
+height: auto;
+float: left;
+background-color: white;
+position: relative;
+right: -369px;
+margin-bottom: -4px;
+}
+
+
+
+ul.items li {list-style-image: url("images/bullet2-normal.gif");
+}
+ul.items li:hover {list-style-image: url("images/bullet2-hover.gif");}
+
+ ul.items li a {font: 13px/19px Arial, Helvetica, sans-serif;
+ 	line-height: 24px;
+ 	text-decoration: none;
+ 	color: #5F7A77;
+ 	 }
+
+  .content {width:561px;
+  	height:auto;
+	border-left: 1px solid #C8E8E2;
+  	float:left;
+  	background-color: white;
+  	float:right;
+  	margin-top: 6px;
+  	margin-right: 323px;}
+
+  
+
+  p.line {
+    width: 510px;
+    height: 25px;
+    float: left;
+    background: url("images/sky-color-bg.gif") 0 10px repeat-x;
+    margin: 31px 30px 16px 29px;
+   
+    }
+
+  p.line a  {text-decoration: none;
+  	background:url("images/special.gif") 0 0 no-repeat white;
+  	font: 13px/19px Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    height: 21px;
+    float: right;
+    width: 85px;
+    margin-right: 24px;
+    padding: 4px 0 0 50px;
+      }
+
+
+p.line a:hover  {text-decoration: none;
+  	background:url("images/buy.gif") 0 0 no-repeat white;
+  	font: 13px/19px Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    height: 21px;
+    float: right;
+    width: 85px;
+    margin-right: 24px;
+    padding: 4px 0 0 50px;}
+
+    p.text {float:left;}
+
+    
+
+    .leftimage {float:left;
+    	margin-right: 15px;}
+
+    p.article {margin-left: 30px;
+    	margin-right: 22px;
+    	text-align: justify;
+        color: #5F7A77;
+        font: 13px/19px Arial, Helvetica, sans-serif;}
+
+    .footer {width: 1400px;
+    	height:103px;
+    	background: url("images/footerbg.gif") 0 0 repeat-x;
+    	clear:both;
+    	color: #2F5958;
+    	 font: 13px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        padding: 36px 0 0;
+        }
+        ul.footermenu {list-style-type: none;
+        margin-left: 463px;
+    	margin-top: -1px;
+
+    	}
+    ul.footermenu li{display:inline;
+   }
+        ul.footermenu li a   {text-decoration: none;
+        	color:#2F5958;
+            font: 13px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        padding: 0 10px 0;
+        }
+
+	ul.footermenu li a:hover  {text-decoration: underline;
+        	}
+    p.copyright { margin-left: 512px;
+    	margin-top: -1px;}
