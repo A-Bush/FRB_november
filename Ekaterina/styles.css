@@ -1,0 +1,64 @@
+ CSS Document 
+
+
+body {background-image: url(images/bg.png); 0 0 repeat-x #fff}
+header {
+height: 200px;
+margin: 4px;
+    padding: 3px;} 
+.log {background-image: url(images/logoall.png);
+width: 350px;
+  height: 151px;
+  position: absolute;
+  left: 500px;
+  top: -1px;
+  width: 273px;
+  height: 131px;
+  z-index: 27;}
+nav { left: 153px;
+    top: 100px;
+    width: 1200px;
+    height: 95px;
+    position: relative;
+}  
+
+ul li { margin: 15px 13px;
+	   list-style: none;
+       overflow: hidden;
+       float: left;
+       }    
+li a{    padding: 15px 25px 15px;
+  font-size: 17px;
+  font-family: "AdventPro";
+  color: rgb( 156, 156, 156 );
+  line-height: 3.765;;
+  text-align: center;
+  text-shadow: 0.5px 0.866px 1px rgb( 0, 0, 0 );
+  position: relative;
+  width: 170px;
+  height: 45px;
+  background: #525252;
+}
+li a:hover{background: #407f9a;
+ color: snow;}
+
+section {
+    width: 980px;
+    background-repeat: no-repeat;
+    height: 350px;
+    position: relative;
+    left: 200px;} 
+footer {background-image: url(Images/ftline.png);
+    background-repeat: repeat-x;
+    width: 1025px;
+    height: 100px;
+    margin: auto;
+}  
+span {margin: 10px 37px 10px;
+    color: rgb( 156, 156, 156 );
+    padding: 15px 10px 10px;}
+
+
+
+
+      
