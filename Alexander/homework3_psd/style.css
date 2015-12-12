@@ -30,7 +30,7 @@ header {
 #logoimg {
 	width: 49px;
 	height: 47px;
-	background: url(img/logo.png) no-repeat;
+	background: url("img/logo.png") no-repeat;
 	float: left;
 }
 
