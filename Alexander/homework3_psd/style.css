@@ -1,0 +1,526 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Lato, Arial;
+	color: #444444;
+}
+
+#wrapper {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+header {
+	height: 95px;
+	width: 100%;
+
+	position: relative;
+}
+
+.clear {
+	clear:both;
+}
+
+#logo {
+	height: 47px;
+	margin: 26px 0 0 40px;
+	position: absolute;
+}
+
+#logoimg {
+	width: 49px;
+	height: 47px;
+	background: url(img/logo.png) no-repeat;
+	float: left;
+}
+
+#logotext {
+	float: left;
+	padding: 7px 0 0 16px;
+}
+
+h1.LogoTitle {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p.LogoDescr {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+nav {
+	height: 47px;
+	margin: 26px 0 0 0;
+	position: absolute;
+	right: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-right: 24px;
+}
+
+nav li {
+	float: left;
+	margin-right: 16px;
+}
+
+
+nav li a {
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 12px;
+	border-radius: 2px;
+	transition: 0.2s;
+	color: #444444;
+}
+
+
+
+nav li a:visited {
+	color: #444444;
+}
+
+nav li a:hover {
+	background: #1BBC9B;
+	color: #fff;
+}
+
+section#brand {
+	height: 453px;
+	width: 100%;
+	background: url("img/bg.jpg") no-repeat;
+	text-align: center;
+
+}
+
+#moto h2 {
+	font-size: 55px;
+	font-weight: lighter;
+	color: #fff;
+	text-transform: capitalize;
+	margin: 0;
+	padding-top: 54px;
+	padding-bottom: 30px;
+}
+
+#moto h2 span {
+	font-weight: bold;
+}
+
+#moto p {
+	font-size: 18px;
+	font-weight: lighter;
+	color: #fff;
+	margin: 0;
+	padding: 4px 0;
+}
+
+#LearnMore {
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#LearnMore a {
+	text-transform: uppercase;
+	color: #fff;
+	background: #1BBC9B;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 12px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	transition: 0.4s ease;
+	border-radius: 2px;
+}
+
+#LearnMore a:hover {
+	border-radius: 60px;
+	background: #16A086;
+}
+
+.white {
+	color: #fff;
+	font-size: 52px !important;
+	padding-top: 58px;
+	text-decoration: none;
+	transition: 0.4s ease;
+}
+
+.white:hover {
+	color: #16A086;
+}
+
+section#portfolio {
+	height: 681px;
+	text-align: center;
+}
+
+#portfolio h2 {
+	font-size: 28px;
+	text-transform: capitalize;
+	margin: 0;
+	margin-top: 46px;
+}
+
+#portfolio p {
+	margin-top: 8px;
+}
+
+#ButtonSet {
+	list-style-type: none;
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 600px;
+}
+
+#ButtonSet li {
+
+
+}
+
+#ButtonSet li  a {
+
+	text-transform: uppercase;
+	color: #fff;
+	background: #1BBC9B;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 12px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	transition: 0.4s ease;
+	border-radius: 2px;
+	float: left;
+	margin: 0 10px;
+}
+
+#ButtonSet li a:hover {
+	border-radius: 60px;
+	background: #16A086;
+}
+
+ul#IconSetOne {
+	list-style-type: none;
+	width: 720px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#IconSetOne li {
+	width: 180px;
+	height: 180px;
+	float: left;
+	margin: 60px 30px 0 24px;
+	cursor: pointer;
+}
+
+.green {
+	background: url("img/green_icon.png") no-repeat;
+}
+.red {
+	background: url("img/red_icon.png") no-repeat;
+}
+.gray {
+	background: url("img/gray_icon.png") no-repeat;
+}
+.blue {
+	background: url("img/blue_icon.png") no-repeat;
+}
+.sea {
+	background: url("img/sea_icon.png") no-repeat;
+}
+.pink {
+	background: url("img/pink_icon.png") no-repeat;
+}
+
+#IconSetOne li:hover > div {
+	display: block;
+}
+
+.IconSetText {
+	display: none;
+}
+
+.IconSetText p {
+	color: #fff;
+	/* text-shadow: 4px 4px 1px rgba(150, 150, 150, 1); */
+	background: #3E5E53;
+	padding: 10px 0 16px 0;
+	border-radius: 200px;
+	opacity: 0.5;
+}
+
+.search {
+	font-size: 36px !important;
+	background: #3E5E53;
+	padding: 16px;
+	color: #fff;
+	opacity: 0.5;
+	border-radius: 200px;
+	margin-top: 20px;
+}
+
+ul#IconSetTwo {
+	list-style-type: none;
+/*	width: 720px;	*/
+	width: 960px;
+	margin: 0 auto;
+	background: red;
+}
+
+#IconSetTwo li {
+	width: 180px;
+	height: 180px;
+	float: left;
+	margin: 60px 30px 0 24px;
+	cursor: pointer;
+}
+
+#IconSetTwo li:hover > div {
+	display: block;
+}
+
+section#aboutus {
+	height: 658px;
+	background: #16A086;
+	text-align: center;
+}
+
+#aboutus h2 {
+	font-size: 28px;
+	text-transform: capitalize;
+	margin: 0;
+	padding-top: 66px;
+	color: #fff;
+}
+
+#aboutus p {
+	margin-top: 8px;
+	color: #fff;
+}
+
+#AboutBlocks {
+	height: 418px;
+/*	width: 660px; */
+	width: 846px;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+
+#AboutBlocks img {
+	width: 220px;
+	height: 228px;
+	border: none;
+	margin: 0;
+	padding: 0;
+	background: #16A086;
+}
+
+#melannie, #jonnie, #daniel {
+	height:418;
+	width: 220px;
+	float: left;
+	margin: 0 31px;
+	position: relative;
+}
+
+#melannie img, #jonnie img, #daniel img {
+	cursor: pointer;
+}
+
+
+.avatar:hover {
+	/* -webkit-filter: sepia(100%); */
+}
+
+#melannie div, #jonnie div, #daniel div {
+	background: #fff;
+	margin-top: -20px;
+	padding-top: 22px;
+}
+
+
+#melannie h3, #jonnie h3, #daniel h3 {
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 3px;
+	letter-spacing: 1.5px;
+}
+
+#melannie span, #jonnie span, #daniel span {
+	text-transform: capitalize;
+	font-size: 17px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+#melannie p, #jonnie p, #daniel p {
+	color: #444444;
+	font-size: 12px;
+	text-align: left;
+	font-weight: normal;
+	padding: 0 20px 22px 20px;
+	line-height: 18px;
+}
+
+
+.social {
+	background: #16A086 !important;
+	opacity: 0.7;
+	padding: 0 5px 10px 0;
+	width: 190px;
+	height: 40px;
+	border-radius: 2px;
+	margin-left: 10px;
+	position: absolute;
+	top: 90px;
+	display: none;
+}
+
+
+.avatar:hover + div {
+    display: block;
+}
+
+.social:hover {
+	display: block;
+}
+
+.close {
+	color: #fff;
+	position: absolute;
+	top: -5px;
+	cursor: pointer;
+}
+
+
+.social a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 0 8px;
+	transition: 0.4s linear;
+}
+
+.social a:hover {
+	color: #444;
+}
+
+
+
+
+
+section#contactus {
+	height: 500px;
+	background: #ECF0F1;
+	text-align: center;
+
+}
+
+#contactus h2 {
+	font-size: 28px;
+	text-transform: capitalize;
+	margin: 0;
+	padding-top: 54px;
+}
+
+#contactus p {
+	margin-top: 8px;
+}
+
+#ContactBlocks {
+	width: 720px;
+	text-align: left;
+	margin-left: 40px;
+}
+
+#form input, #form textarea {
+	border: 1px solid #BEC3C7;
+	margin-top: 20px;
+}
+
+#form {
+	width: 470px;
+	float: left;
+}
+
+#form input {
+	height: 43px;
+	width: 216px;
+	padding-left: 10px;
+}
+
+.email {
+	margin-left: 20px;
+}
+
+.textarea {
+	width: 455px;
+	max-width: 455px;
+	height: 150px;
+	max-height: 150px;
+	margin-top: 26px;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 6px;
+	resize: none;
+}
+
+.button {
+	border: none;
+	width: 110px;
+	height: 40px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #1BBC9B;
+	color: #fff;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 2px;
+	transition: 0.4s ease;
+	float: right;
+	margin-right: 16px;
+}
+
+.button:hover {
+	border-radius: 60px;
+	background: #16A086;
+}
+
+#ContactInfo {
+	float: left;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+
+#ContactInfo h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+#ContactInfo p {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+footer {
+	height: 87px;
+	background: #2D3E50;
+	color: #fff;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 87px;
+	padding-left: 50px;
+}
